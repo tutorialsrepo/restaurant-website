@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* common css */
+.textCenter {
+  text-align: center;
+}
+
+/* header styles */
+
+header {
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+header .logo a {
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0px 10px;
+}
+
+header .navLinks {
+  list-style: none;
+  margin-left: auto;
+}
+
+.navLinks li {
+  display: inline-block;
+}
+
+header .navLinks li a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0px 10px;
+}
+
+/* home div */
+
+#home-page {
+  height: 100vh;
+  width: 100%;
+}
+
+.titleText {
+  text-align: center;
+  font-size: 1000%;
+  margin-top: 40px;
+  font-family: Georgia, serif;
+}
+
+.titleImg {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.secondTitleImg {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+/* bestRestaurant-page */
+
+#bestRestaurant-page {
+  padding: 15px;
+  background: #e7e9e7;
+}
+
+.bedtRestaurantTitle {
+  font-size: 50px;
+}
+
+.firstResImg {
+  width: 300px;
+  height: 200px;
+}
+.restaurantListDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  height: 250px;
+}
+.firstResDiv > * {
+  padding: 10px 0px;
+}
+.firstResDiv span {
+  font-size: 50px;
+  font-family: Georgia, serif;
+}
+
+.country {
+  border-bottom: 1px solid black;
+}
+
+.seeFullDetails {
+  margin-left: 10px;
+}
+.seeFullDetails i {
+  margin-left: 5px;
+}
+.secondResDiv {
+}
+
+/* topDeals-page */
+
+#topDeals-page {
+  min-height: 100vh;
+  padding: 20px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmyb62Hz8dH6fLGl52_zy9TaEez6R_yJAsfQ");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardSection {
+  width: 600px;
+  height: 500px;
+  margin-top: 250px;
+  margin-left: 250px;
+}
+
+.topDealsPage {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topDealsPagesecond {
+  width: 40%;
+}
+
+.topDealslist {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.topDealslist p {
+  margin: 0px;
+}
+
+/* contactUs */
+.contactUs {
+  padding-top: 20px;
+}
+
+.footerDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerDiv div ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 15px;
+}
+
+.copyright {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(192, 195, 195);
+}
+
+.signupMenu {
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #d1cbcb;
+}
+
+.loginMenu {
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  background-color: #2f11ee;
+}
